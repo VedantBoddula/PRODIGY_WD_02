@@ -1,0 +1,36 @@
+.time {
+    display: flex;
+    padding-left: 57px;
+    padding-bottom: 10px;
+}
+
+
+
+.button {
+    /* background-color: rgb(120, 230, 166); */
+    color: rgb(14, 13, 13);
+
+    border-radius: 10px;
+}
+
+.start-button {
+    color: white;
+    background-color: rgb(151, 198, 151);
+}
+
+.stop-button {
+    color: white;
+    background-color: rgb(241, 150, 145);
+}
+
+.reset-button {
+    color: white;
+    background-color: rgb(190, 186, 186);
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+}
+
+
