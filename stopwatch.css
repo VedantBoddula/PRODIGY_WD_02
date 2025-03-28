@@ -1,16 +1,27 @@
-.time {
-    display: flex;
-    padding-left: 57px;
-    padding-bottom: 10px;
+* {
+    padding: 0px;
+    margin: 0px;
+
 }
 
+#center {
+    display: flex;
+    flex-direction: column;
+    
+}
 
+.time {
+    display: flex;
+    padding-left: 55px;
+    padding-bottom: 10px;
+}
 
 .button {
     /* background-color: rgb(120, 230, 166); */
     color: rgb(14, 13, 13);
-
     border-radius: 10px;
+    height: 20px;
+    padding: 0px 5px 0px 5px;
 }
 
 .start-button {
@@ -28,9 +39,63 @@
     background-color: rgb(190, 186, 186);
 }
 
-h3{
+h3,
+h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 25px;
 }
 
+.lap-button {
+    background-color: rgb(64, 57, 57);
+    color: white;
+    margin-left: 26px;
 
+
+
+}
+
+.centered {
+    display: flex;
+    /* padding: 100px */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#laps {
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 38vh;
+    height: 50vh;
+    width: 35vh;
+
+
+
+
+
+}
+
+.move {
+    margin-left: 60px;
+}
+
+.reset-img {
+    position:absolute;
+    top:20px;
+    left: 160px;
+    /* padding-left: 145px; */
+    /* margin-left: 150px; */
+
+    /* margin-bottom: 150px; */
+    
+    /* margin-bottom: 100px; */
+    width: 20px;
+    /* margin-bottom: 100px; */
+
+    
+}
