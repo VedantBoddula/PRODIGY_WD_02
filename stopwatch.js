@@ -53,7 +53,7 @@ resetButton.addEventListener("click",()=>{
 })
 
 function createLapBox(hrs,mins,sec){
-    const laps = document.getElementById("laps");
+    const boxes = document.getElementById("boxes");
     const box = document.createElement("div");
 
     box.classList.add("lapkoremove"); //
@@ -70,7 +70,7 @@ function createLapBox(hrs,mins,sec){
     box.appendChild(hrBox)
     box.appendChild(minBox)
     box.appendChild(seBox)
-    laps.appendChild(box)
+    boxes.appendChild(box)
     box.classList.add("move")
     
     // first_page.classList.add("hidden")
@@ -87,7 +87,7 @@ function removeLaps(){
         console.log(reemove[i])
         lapss.removeChild(reemove[i])
     }
-    console.log('tytsjks');
+    console.log('Ved');
     
 }
 
